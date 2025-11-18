@@ -94,6 +94,12 @@ draw_config:
     /* hide hold box for combo sym_by_sym */
     .combo.sym_by_sym.hold > path[stroke="none"][fill="none"] {
       visibility: hidden;
+ /* 新增：隐藏 row0, col0 和 row2, col0 的键 */
+    /* 键的行列通过 data-row 和 data-col 属性匹配，精准定位目标键 */
+    rect.key[data-row="0"][data-col="0"],
+    text.key-label[data-row="0"][data-col="0"]{
+      display: none !important; /* 完全隐藏键的矩形和标签 */
+      
     }
 
   shrink_wide_legends: 6
