@@ -246,10 +246,10 @@
         default_layer {
             display-name = "0 QWE";
             bindings = <
-         &kp TAB    &as Q    &as W           &as E        &as R                                  &as T                 &kp UP       &as Y        &as U          &as I      &as O    &as P
-&trans   &none      &lt 4 A  &hm LEFT_ALT S  &as D        &as F                           &as G  &kp LEFT   &kp ENTER  &kp RIGHT    &as H        &as J          &as K      &as L    &as SEMI
-&kp SQT  &kp LCTRL  &as Z    &as X           &as C        &as V                  &as B           &kp SPACE             &kp DOWN     &as N        &as M          &as COMMA  &as DOT  &as FSLH
-                             &kp ESC         &tdshiftwin  &mt LEFT_CONTROL CAPS                                        &lt 1 SPACE  &lt 2 ENTER  &kp BACKSPACE
+        &kp TAB    &as Q    &as W           &as E        &as R                                  &as T                 &kp UP       &as Y        &as U          &as I      &as O    &as P
+&trans  &none      &lt 4 A  &hm LEFT_ALT S  &as D        &as F                           &as G  &kp LEFT   &kp ENTER  &kp RIGHT    &as H        &as J          &as K      &as L    &as SEMI
+&trans  &kp LCTRL  &as Z    &as X           &as C        &as V                  &as B           &kp SPACE             &kp DOWN     &as N        &as M          &as COMMA  &as DOT  &as FSLH
+                            &kp ESC         &tdshiftwin  &mt LEFT_CONTROL CAPS                                        &lt 1 SPACE  &lt 2 ENTER  &kp BACKSPACE
             >;
 
             sensor-bindings = <&inc_dec_kp PAGE_UP PAGE_DOWN>;
