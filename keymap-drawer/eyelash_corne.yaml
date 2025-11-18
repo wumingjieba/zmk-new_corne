@@ -28,7 +28,7 @@ layers:
   - '&as K'
   - '&as L'
   - '&as SEMI'
-  - {t: '''', s: '"'}
+  - {t: '$$mdi:transfer$$', type: trans}
   - $$mdi:apple-keyboard-control$$
   - '&as Z'
   - '&as X'
