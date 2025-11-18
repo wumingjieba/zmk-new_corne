@@ -1,7 +1,7 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   0 QWE:
-  - $$mdi:keyboard-tab$$
+  - {type: none, t: ''} 
   - '&as Q'
   - '&as W'
   - '&as E'
