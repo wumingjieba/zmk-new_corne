@@ -16,7 +16,7 @@ draw_config:
   arc_radius: 6.0
   append_colon_to_layer_header: true
   small_pad: 2.0
-  svg_extra_style: |
+svg_extra_style: |
     /* For default sytles, see https://github.com/caksoylar/keymap-drawer/blob/main/keymap_drawer/config.py#L85 */
 
     svg.keymap {
@@ -94,12 +94,12 @@ draw_config:
     /* hide hold box for combo sym_by_sym */
     .combo.sym_by_sym.hold > path[stroke="none"][fill="none"] {
       visibility: hidden;
- /* 新增：隐藏 row0, col0 和 row2, col0 的键 */
-    /* 键的行列通过 data-row 和 data-col 属性匹配，精准定位目标键 */
+    }  /* 这里补充闭合之前未闭合的 } */
+
+    /* 新增：隐藏 row0, col0 的键（保持与其他CSS相同的缩进） */
     rect.key[data-row="0"][data-col="0"],
     text.key-label[data-row="0"][data-col="0"]{
-      display: none !important; /* 完全隐藏键的矩形和标签 */
-      
+      display: none !important;  /* 完全隐藏键的矩形和标签 */
     }
 
   shrink_wide_legends: 6
