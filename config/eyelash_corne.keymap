@@ -168,17 +168,17 @@
 
         enter-left {
             bindings = <&kp ENTER>;
-            key-positions = <44 17>;
+            key-positions = <40 17>;
         };
 
         tab {
             bindings = <&kp TAB>;
-            key-positions = <16 43>;
+            key-positions = <16 40>;
         };
 
         escape-left {
             bindings = <&kp ESCAPE>;
-            key-positions = <1 44>;
+            key-positions = <1 40>;
         };
     };
 
