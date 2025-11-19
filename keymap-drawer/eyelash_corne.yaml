@@ -1,7 +1,6 @@
 layout: {zmk_keyboard: eyelash_corne}
 layers:
   0 QWE:
-  - $$mdi:keyboard-tab$$
   - '&as Q'
   - '&as W'
   - '&as E'
@@ -13,8 +12,6 @@ layers:
   - '&as I'
   - '&as O'
   - '&as P'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - {t: A, h: 4 NUM-left}
   - {t: S, s: '$$mdi:apple-keyboard-option$$'}
   - '&as D'
@@ -28,28 +25,24 @@ layers:
   - '&as K'
   - '&as L'
   - '&as SEMI'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:apple-keyboard-control$$
   - '&as Z'
   - '&as X'
   - '&as C'
   - '&as V'
   - '&as B'
-  - $$mdi:keyboard-space$$
   - $$mdi:arrow-down-bold$$
   - '&as N'
   - '&as M'
   - '&as COMMA'
   - '&as DOT'
   - '&as FSLH'
-  - $$mdi:keyboard-esc$$
   - '&tdshiftwin'
   - {t: '$$mdi:apple-keyboard-caps$$', h: '$$mdi:apple-keyboard-control$$'}
   - {t: '$$mdi:keyboard-space$$', h: 1 NUM-R}
   - {t: '$$mdi:keyboard-return$$', h: 2 SYMBOL}
   - {t: '$$mdi:backspace$$', type: backspace}
+  - '&tdaltlayer3'
   1 NUM-R:
-  - {t: '$$mdi:transfer$$', type: trans}
   - PRINTSCREEN
   - $
   - $$mdi:arrow-up-bold$$
@@ -61,8 +54,6 @@ layers:
   - '&as N9'
   - '&as MINUS'
   - '&as EQUAL'
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
   - '&tdps'
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -76,28 +67,24 @@ layers:
   - '&as N6'
   - +
   - {t: '$$mdi:transfer$$', type: trans}
-  - PG UP
-  - {t: '$$mdi:transfer$$', type: trans}
   - '&tdblueclear'
   - '&tdbt0'
   - '&tdbt1'
   - '&tdbt2'
   - '&tdbt3'
-  - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - '&as N1'
   - '&as N2'
   - '&as N3'
   - '*'
   - KP DIVIDE
-  - PG DN
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
   - '&as N0'
+  - KP DOT
   2 SYMBOL:
-  - {t: '$$mdi:transfer$$', type: trans}
   - '&as N1'
   - '&as N2'
   - '&as N3'
@@ -109,8 +96,6 @@ layers:
   - $$mdi:arrow-up-bold$$
   - '&as MINUS'
   - '&as EQUAL'
-  - {t: '$$mdi:backspace$$', type: backspace}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: ;, s: ':'}
   - '"'
   - '?'
@@ -124,28 +109,24 @@ layers:
   - $$mdi:arrow-down-bold$$
   - $$mdi:arrow-right-bold$$
   - HOME
-  - {t: '`', s: '~'}
-  - {t: '$$mdi:transfer$$', type: trans}
   - ':'
   - {t: '''', s: '"'}
   - {t: /, s: '?'}
   - {t: \, s: '|'}
   - '|'
-  - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - '!'
   - ^
   - '{'
   - '}'
   - END
-  - '~'
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
   - {t: '$$mdi:transfer$$', type: trans}
-  3 Fn:
   - {t: '$$mdi:transfer$$', type: trans}
+  3 Fn:
   - F1
   - F2
   - F3
@@ -157,8 +138,6 @@ layers:
   - (
   - {t: '$$mdi:transfer$$', type: trans}
   - PRINTSCREEN
-  - F11
-  - {t: '$$mdi:transfer$$', type: trans}
   - F5
   - F6
   - F7
@@ -172,36 +151,30 @@ layers:
   - ^
   - {t: '$$mdi:transfer$$', type: trans}
   - PgUp
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - F9
   - F10
   - F11
   - F12
   - OUT BLE
-  - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - '!'
   - '@'
   - '#'
   - {t: '$$mdi:transfer$$', type: trans}
   - PgDn
-  - PAUSE BREAK
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   4 NUM-left:
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '-', s: _}
   - {t: '=', s: +}
   - {t: '7', s: '&'}
   - {t: '8', s: '*'}
   - {t: '9', s: (}
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -220,16 +193,12 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - '*'
   - KP DIVIDE
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
-  - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -240,8 +209,8 @@ layers:
   - {t: '$$mdi:keyboard-space$$', h: '5 '}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  '5 ':
   - {t: '$$mdi:transfer$$', type: trans}
+  '5 ':
   - {t: '$$mdi:transfer$$', type: trans}
   - $
   - $$mdi:arrow-up-bold$$
@@ -253,8 +222,6 @@ layers:
   - RGB EFF
   - RGB HUI
   - RGB HUD
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: Ctl+A, type: held}
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -268,14 +235,11 @@ layers:
   - RGB SPD
   - RGB SAI
   - RGB SAD
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Z
   - Ctl+X
   - Ctl+C
   - Ctl+V
   - {t: '$$mdi:transfer$$', type: trans}
-  - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - RGB BRI
@@ -284,8 +248,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   '6':
@@ -293,11 +257,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Y
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -316,14 +277,11 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - Ctl+Z
   - Ctl+X
   - Ctl+C
   - Ctl+V
   - Ctl+B
-  - $$mdi:volume-off$$
   - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -331,8 +289,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
   - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -345,9 +303,9 @@ combos:
   k: $$mdi:backspace-reverse-outline$$
 - p: [23, 24]
   k: $$mdi:backspace-reverse-outline$$
-- p: [44, 17]
+- p: [40, 17]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-- p: [16, 43]
+- p: [16, 40]
   k: $$mdi:keyboard-tab$$
-- p: [1, 44]
+- p: [1, 40]
   k: $$mdi:keyboard-esc$$
