@@ -295,17 +295,17 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
-- p: [1, 15, 29]
+- p: [0, 12, 24]
   k: '&soft_off'
-- p: [4, 3]
+- p: [3, 2, 3]
   k: {t: '$$mdi:backspace$$', type: backspace}
-- p: [16, 17]
+- p: [14, 13]
   k: $$mdi:backspace-reverse-outline$$
-- p: [23, 24]
+- p: [20, 21]
   k: $$mdi:backspace-reverse-outline$$
-- p: [40, 17]
+- p: [14, 37]
   k: {t: '$$mdi:keyboard-return$$', type: enter}
-- p: [16, 40]
+- p: [36, 13]
   k: $$mdi:keyboard-tab$$
-- p: [1, 40]
+- p: [0, 37]
   k: $$mdi:keyboard-esc$$
