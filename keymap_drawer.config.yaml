@@ -98,7 +98,19 @@ draw_config:
 
     /* 新增：隐藏 row0, col0 的键（保持与其他CSS相同的缩进） */
     rect.key[data-row="0"][data-col="0"],
-    text.key-label[data-row="0"][data-col="0"]{
+    text.key-label[data-row="0"][data-col="0"],
+    rect.key[data-row="1"][data-col="0"],
+    text.key-label[data-row="1"][data-col="0"],
+    rect.key[data-row="2"][data-col="0"],
+    text.key-label[data-row="2"][data-col="0"],
+    rect.key[data-row="2"][data-col="6"],
+    text.key-label[data-row="2"][data-col="6"],
+    rect.key[data-row="0"][data-col="16"],
+    text.key-label[data-row="0"][data-col="16"],
+    rect.key[data-row="1"][data-col="16"],
+    text.key-label[data-row="1"][data-col="16"],
+    rect.key[data-row="2"][data-col="16"],
+    text.key-label[data-row="2"][data-col="16"]{
       display: none !important;  /* 完全隐藏键的矩形和标签 */
     }
 
