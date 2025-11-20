@@ -20,7 +20,7 @@ layers:
   - $$mdi:arrow-left-bold$$
   - {t: '$$mdi:keyboard-return$$', type: enter}
   - $$mdi:arrow-right-bold$$
-  - '&as H'
+  - A
   - '&as J'
   - '&as K'
   - '&as L'
