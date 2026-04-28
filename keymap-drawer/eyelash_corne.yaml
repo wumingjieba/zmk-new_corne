@@ -309,3 +309,5 @@ combos:
   k: $$mdi:keyboard-tab$$
 - p: [0, 37]
   k: $$mdi:keyboard-esc$$
+- p: [3, 4]
+  k: F13
